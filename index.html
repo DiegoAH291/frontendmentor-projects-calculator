@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link id="style" rel="stylesheet" href="./src/assets/styles/themes/app.scss">
+  <title>CALCULATOR APP | Home</title>
+</head>
+
+<body>
+
+  <main class="calc-container">
+
+    <header class="header-calc">
+
+      <h3 class="header-calc__title">Calc</h3>
+
+      <div class="theme-container">
+        <p class="theme-container__title">Theme</p>
+
+        <div class="theme-box">
+
+          <div class="theme-numbers">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+          </div>
+
+          <input type="range" id="range-theme" max="3" min="1" class="theme-box__range">
+        </div>
+      </div>
+
+    </header>
+
+    <div class="result-container">
+      <span class="result-container__value" id="value-calc"></span>
+    </div>
+
+    <div class="btn-calc">
+
+      <div class="primary-btn">
+        <button class="primary-btn__btn" id="btn-calc">7</button>
+        <button class="primary-btn__btn" id="btn-calc">8</button>
+        <button class="primary-btn__btn" id="btn-calc">9</button>
+        <button class="primary-btn__del" id="btn-del">DEL</button>
+        <button class="primary-btn__btn" id="btn-calc">4</button>
+        <button class="primary-btn__btn" id="btn-calc">5</button>
+        <button class="primary-btn__btn" id="btn-calc">6</button>
+        <button class="primary-btn__btn" id="btn-calc">+</button>
+        <button class="primary-btn__btn" id="btn-calc">1</button>
+        <button class="primary-btn__btn" id="btn-calc">2</button>
+        <button class="primary-btn__btn" id="btn-calc">3</button>
+        <button class="primary-btn__btn" id="btn-calc">-</button>
+        <button class="primary-btn__btn" id="btn-calc">.</button>
+        <button class="primary-btn__btn" id="btn-calc">0</button>
+        <button class="primary-btn__btn" id="btn-calc">/</button>
+        <button class="primary-btn__btn" id="btn-calc">*</button>
+      </div>
+
+      <div class="btn-submit">
+        <button class="btn-submit__clear" id="btn-clear">RESET</button>
+        <button class="btn-submit__submit" id="btn-submit">=</button>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="./src/js/calc.js"></script>
+
+</body>
+
+</html>
